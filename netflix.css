@@ -1,0 +1,441 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	background:url('images/Npg.png') no-repeat;
+	background-size: cover;
+}
+.over{
+	background-color: black;
+	position: absolute;
+   	top: 0px;
+   	left: 0px;
+   	width: 100%;
+	height: 93%;
+	opacity: 0.7;
+}
+@media screen and (max-width:1020px){
+	body{
+		width: 1400px;
+		flex-grow: 1;
+		display: flex;
+	
+	.over{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.over1{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.over2{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.over3{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.over4{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.ov{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.bo1{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.bo2{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.bo3{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.bo4{
+		width: 1300px;
+		flex-grow: 1;
+		display: flex;
+	}
+	.o1 img{
+	//position: absolute;
+	//top: 120px;
+	left:800px ;
+	width: 400px;
+	height: 320px;
+}
+}
+}
+
+#p1{
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 50%;
+	left:38%;
+}
+#p2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 56%;
+	left:28%;
+}
+.bold p{
+	font-size: 20px;
+}
+.bold h1{
+	position: absolute;
+	color: white;
+	text-align: center;
+	top: 37%;
+	left: 23%;
+	font-size: 45px;
+	font-weight: bold;
+}
+.bold input{
+	position: absolute;
+	top: 67%;
+	left: 29.3%;
+	padding: 20px 210px 20px 10px;
+	border-radius: 5%;
+	border-color: white;	
+	color: white;
+	background-color: transparent;
+	backdrop-filter: blur(20px);
+}
+.bold button{
+	position: absolute;
+	top: 67%;
+	left: 55%;
+	padding: 15px 24px 15px 24px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	border-radius: 5%;
+	border-color: white;
+	border: none;
+	cursor: pointer;
+}
+.gold{
+	position: absolute;
+	top: 17px;
+	left: 10%;
+
+}
+.cont1{
+	position: absolute;
+	left: 680%;
+	top: -1%;
+}
+.cont2{
+	position: absolute;
+	left: 750%;
+	top: -1%;
+}
+#btn{
+	padding: 7px;
+	width: 80px;
+	background-color: red;
+	color: white;
+	font-size: 15px;
+	border-radius: 10%;
+	border: none;
+	cursor: pointer;
+}
+.b1{
+	padding: 6px;
+	background-color: transparent;
+	backdrop-filter: blur(20px);
+	color: white;
+	font-size: 15px;
+	border-radius: 10%;
+}
+#op {
+//	background-color: blue;
+	color: black;
+}
+.bo1{
+	position: absolute;
+	background-color: grey;
+	top: 93%;
+	left: 0px;
+	width: 100%;
+	height: 1%;
+}
+.over1{
+	background-color: black;
+	position: absolute;
+   	top: 94%;
+   	left: 0px;
+   	width: 100%;
+	height: 80%;
+}
+.ov{
+	background-color: black;
+	position: absolute;
+   	top: 80%;
+   	height: 60%;
+   	left: 0px;
+   	width: 100%;
+   	opacity: 0.3;
+   	border: none;
+   	border-style: dotted ;
+}
+.bo2{
+	position: absolute;
+	background-color: grey;
+	top: 174%;
+	left: 0px;
+	width: 100%;
+	height: 1%;
+}
+.over2{
+	background-color: black;
+	position: absolute;
+   	top: 175%;
+   	left: 0px;
+   	width: 100%;
+	height: 80%;
+}
+.o1{
+	position: absolute;
+	color: white;
+}
+.o1 h1{
+	position: absolute;
+	font-size: 48px;
+	top: 160px;
+	left: 200px;
+	width: 390px;
+}
+.o1 p{
+	position: absolute;
+	font-size: 23px;
+	top: 250px;
+	left: 200px;
+	width: 600px;
+}
+.o1 img{
+	position: absolute;
+	top: 120px;
+	left:900px ;
+	width: 500px;
+	height: 400px;
+}
+.o2{
+	position: absolute;
+	color: white;
+}
+.o2 h1{
+	position: absolute;
+	font-size: 48px;
+	top: 130px;
+	left: 700px;
+	width: 600px;
+}
+.o2 p{
+	position: absolute;
+	font-size: 23px;
+	top: 290px;
+	left: 700px;
+	width: 600px;
+}
+.o2 img{
+	position: absolute;
+	top: 95px;
+	left:120px ;
+	width: 450px;
+	height: 450px;
+}
+.bo3{
+	position: absolute;
+	background-color: grey;
+	top: 255%;
+	left: 0px;
+	width: 100%;
+	height: 1%;
+}
+.over3{
+	background-color: black;
+	position: absolute;
+   	top: 256%;
+   	left: 0px;
+   	width: 100%;
+	height: 150%;
+}
+.o3{
+	position: absolute;
+	color: white;
+	left: 200px;
+}
+.o3 h1{
+	position: absolute;
+	font-weight: bold;
+	font-size: 43px;
+	left: 250px;
+	top: 80px;
+	width: 595px;
+}
+.bo4{
+	position: absolute;
+	background-color: grey;
+	top: 406%;
+	left: 0px;
+	width: 100%;
+	height: 1%;
+}
+.over4{
+	background-color: black;
+	position: absolute;
+   	top: 407%;
+   	left: 0px;
+   	width: 100%;
+	height: 80%;
+}
+.o4{
+	position: absolute;
+	color: white;
+}
+#aa a{
+	cursor: pointer;
+	color: white;
+}
+#bt{
+	background-color:#484747 ;
+	width: 1100px;
+	height: 80px;
+	font-size: 23px;
+	color: white;
+	text-align:left ;
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+#bt:hover{
+	background-color:#9A9696;
+}
+.but{
+	position: absolute;
+	top: 200px;
+}
+.but .ip{
+	position: absolute;
+	top: 600px;
+	left: 200px;
+}
+.ip p{
+	font-family: arial;
+	font-size: 20px;
+}
+.ip input{
+	position: absolute;
+	top:100px;
+	left: 20px;
+	padding: 20px 210px 20px 10px;
+	border-radius: 5%;
+	border-color: white;	
+	color: white;
+	background-color: transparent;
+	backdrop-filter: blur(20px);
+}
+.ip button{
+	position: absolute;
+	top: 102px;
+	left: 410px;
+	padding: 15px 24px 15px 24px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	border-radius: 5%;
+	border-color: white;
+	border: none;
+	cursor: pointer;
+}
+#pp1{
+	position: absolute;
+	top:130px ;
+	left:160px ;
+	color: white;
+	width: 300px;
+	font-size: 14px;
+}
+#pp2{
+	position: absolute;
+	top:520px ;
+	left:160px ;
+	color: white;
+	width: 100px;
+	font-size: 14px;
+}
+#aa{
+	position: absolute;
+}
+.o4 .a1{
+	position: absolute;
+	top:190px ;
+	left:160px ;
+	color: white;
+	margin:10px 0 10px 0;
+	width: 150px;
+	font-size: 14px;
+}
+.o4 .a2{
+	position: absolute;
+	top:190px ;
+	left:460px ;
+	color: white;
+	margin:10px 0 10px 0;
+	width: 150px;
+	font-size: 14px;
+}
+.o4 .a3{
+	position: absolute;
+	top:190px ;
+	left:760px ;
+	color: white;
+	margin:10px 0 10px 0;
+	width: 160px;
+	font-size: 14px;
+}
+.o4 .a4{
+	position: absolute;
+	top:190px ;
+	left:1060px ;
+	color: white;
+	margin:10px 0 10px 0;
+	width: 150px;
+	font-size: 14px;
+}
+
+.b2{
+	position: absolute;
+	top:470px ;
+	left:160px ;
+	padding: 6px;
+	background-color: transparent;
+	backdrop-filter: blur(20px);
+	color: white;
+	font-size: 15px;
+	border-radius: 10%;
+
+}
